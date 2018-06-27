@@ -1,0 +1,15 @@
+{
+     "type": "forge:ore_shaped",
+     "pattern": [
+        "s",
+        "s"
+     ],
+     "key": {
+        "s": {
+            "item": "dirtdeco:dirt_slab"
+         }
+     },
+    "result": {
+        "item": "dirtdeco:diamond_chiseled_sandstone"
+     }
+ }

@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "dirtdeco:blocks/diamond_smooth_sandstone_top",
+        "side": "dirtdeco:blocks/dirt_smooth"
+    }
+}

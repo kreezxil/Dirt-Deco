@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dirtdeco",
+  "name": "Dirt Deco",
+  "description": "Building blocks using grass and dirt!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://minecraft.curseforge.com/projects/dirt-deco",
+  "updateUrl": "",
+  "authorList": ["Kreezxil"],
+  "credits": "The doctors at Wise Regional who saved me from a BPE!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

@@ -1,0 +1,16 @@
+{
+     "type": "forge:ore_shaped",
+     "pattern": [
+        "ss",
+        "ss"
+     ],
+     "key": {
+        "s": {
+            "item": "dirtdeco:diamond_sand"
+         }
+     },
+    "result": {
+        "item": "dirtdeco:dirt",
+        "count": 4
+     }
+ }

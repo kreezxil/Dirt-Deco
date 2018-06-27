@@ -1,0 +1,13 @@
+/bin/
+/Dirt Deco_Client.launch
+/Dirt Deco_Server.launch
+/build/
+/eclipse/
+/gradle.properties
+/gradle/
+/gradlew
+/gradlew.bat
+
+\.gradle/2\.14/taskArtifacts/
+
+\.gradle/

@@ -1,0 +1,17 @@
+{
+     "type": "forge:ore_shaped",
+     "pattern": [
+        "  s",
+        " ss",
+        "sss"
+     ],
+     "key": {
+        "s": {
+            "item": "dirtdeco:dirt"
+         }
+     },
+    "result": {
+        "item": "dirtdeco:dirt_stairs",
+        "count": 6
+     }
+ }

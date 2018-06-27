@@ -1,0 +1,18 @@
+
+language.name=English
+language.region=United States
+language.code=en_us
+
+itemGroup.dirtdeco=Dirt Deco
+
+tile.dirtdeco.dirt_stairs.name=Dirt Stairs
+tile.dirtdeco.dirt_slab.name=Dirt Slab
+tile.dirtdeco.dirt_door.name=Dirt Door
+tile.dirtdeco.dirt_trap_door.name=Dirt Trap Door
+tile.dirtdeco.dirt_fence.name=Dirt Fence
+
+tile.dirtdeco.grass_stairs.name=Dirt Stairs
+tile.dirtdeco.grass_slab.name=Dirt Slab
+tile.dirtdeco.grass_door.name=Grass Door
+tile.dirtdeco.grass_trap_door.name=Grass Trap Door
+tile.dirtdeco.grass_fence.name=Grass Fence

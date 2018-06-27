@@ -1,0 +1,15 @@
+{
+     "type": "forge:ore_shaped",
+     "pattern": [
+        "sss"
+     ],
+     "key": {
+        "s": {
+            "item": "dirtdeco:diamond_smooth_sandstone"
+         }
+     },
+    "result": {
+        "item": "dirtdeco:diamond_smooth_sandstone_slab",
+        "count": 6
+     }
+ }
