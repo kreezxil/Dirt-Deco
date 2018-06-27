@@ -11,3 +11,9 @@
 \.gradle/2\.14/taskArtifacts/
 
 \.gradle/
+
+run/config/
+
+run/logs/
+
+run/
