@@ -2,9 +2,9 @@
 	"forge_marker": 1,
 	"defaults":{
 	    "textures": {
-        "bottom": "blocks/dirt",
-        "top": "blocks/grass_top",
-        "side": "blocks/grass_side"
+        "bottom": "dirtdeco:blocks/dirt",
+        "top": "dirtdeco:blocks/grass_green_top",
+        "side": "dirtdeco:blocks/grass_side"
     }
 	},
 	"variants": {
@@ -13,10 +13,10 @@
 				"model": "dirtdeco:grass_upper_slab"
 			},
 			"lower": {
-				"model": "dirtdeco:half_slab"
+				"model": "dirtdeco:grass_half_slab"
 			},
 			"double": {
-				"model": "dirtdeco:dirt_normal"
+				"model": "dirtdeco:grass_normal"
 			}
 		}
 	}

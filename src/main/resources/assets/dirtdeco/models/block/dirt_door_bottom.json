@@ -1,0 +1,7 @@
+{
+    "parent": "block/door_bottom",
+    "textures": {
+        "bottom": "dirtdeco:blocks/door_dirt_lower",
+        "top": "dirtdeco:blocks/door_dirt_upper"
+    }
+}

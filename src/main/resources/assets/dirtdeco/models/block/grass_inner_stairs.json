@@ -2,7 +2,7 @@
     "parent": "block/inner_stairs",
     "textures": {
         "bottom": "dirtdeco:blocks/dirt_bottom",
-        "top": "dirtdeco:blocks/dirt_top",
-        "side": "dirtdeco:blocks/dirt_normal"
+        "top": "dirtdeco:blocks/grass_top",
+        "side": "dirtdeco:blocks/grass_side"
     }
 }

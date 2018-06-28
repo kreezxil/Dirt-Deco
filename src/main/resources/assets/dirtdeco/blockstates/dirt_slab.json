@@ -2,9 +2,9 @@
 	"forge_marker": 1,
 	"defaults":{
 	    "textures": {
-        "bottom": "blocks/dirt",
-        "top": "blocks/dirt",
-        "side": "blocks/dirt"
+        "bottom": "dirtdeco:blocks/dirt",
+        "top": "dirtdeco:blocks/dirt",
+        "side": "dirtdeco:blocks/dirt"
     }
 	},
 	"variants": {

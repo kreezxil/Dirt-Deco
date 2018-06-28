@@ -2,7 +2,7 @@
     "parent": "block/cube_bottom_top",
     "textures": {
 			"bottom": "dirtdeco:blocks/dirt",
-			"top": "dirtdeco:blocks/dirt",
-			"side": "dirtdeco:blocks/dirt"
+			"top": "dirtdeco:blocks/grass_green_top",
+			"side": "dirtdeco:blocks/grass_side"
     }
 }

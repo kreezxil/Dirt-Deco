@@ -10,9 +10,11 @@ tile.dirtdeco.dirt_slab.name=Dirt Slab
 tile.dirtdeco.dirt_door.name=Dirt Door
 tile.dirtdeco.dirt_trap_door.name=Dirt Trap Door
 tile.dirtdeco.dirt_fence.name=Dirt Fence
+tile.dirtdeco.dirt_gate.name=Dirt Gate
 
-tile.dirtdeco.grass_stairs.name=Dirt Stairs
-tile.dirtdeco.grass_slab.name=Dirt Slab
+tile.dirtdeco.grass_stairs.name=Grass Stairs
+tile.dirtdeco.grass_slab.name=Grass Slab
 tile.dirtdeco.grass_door.name=Grass Door
 tile.dirtdeco.grass_trap_door.name=Grass Trap Door
 tile.dirtdeco.grass_fence.name=Grass Fence
+tile.dirtdeco.grass_gate.name=Grass Gate

@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "dirtdeco:blocks/grass_green_top"
+    }
+}
