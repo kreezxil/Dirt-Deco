@@ -1,5 +1,12 @@
 {
-    "variants": {
+     "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "bottom": "dirtdeco:blocks/dirt",
+            "top": "dirtdeco:blocks/grass_top",
+            "side": "dirtdeco:blocks/grass_side"
+        }
+    }, "variants": {
         "facing=east,half=lower,hinge=left,open=false":  { "model": "dirtdeco:grass_door_bottom" },
         "facing=south,half=lower,hinge=left,open=false": { "model": "dirtdeco:grass_door_bottom", "y": 90 },
         "facing=west,half=lower,hinge=left,open=false":  { "model": "dirtdeco:grass_door_bottom", "y": 180 },
@@ -31,6 +38,9 @@
         "facing=east,half=upper,hinge=right,open=true":  { "model": "dirtdeco:grass_door_top", "y": 270 },
         "facing=south,half=upper,hinge=right,open=true": { "model": "dirtdeco:grass_door_top" },
         "facing=west,half=upper,hinge=right,open=true":  { "model": "dirtdeco:grass_door_top", "y": 90 },
-        "facing=north,half=upper,hinge=right,open=true": { "model": "dirtdeco:grass_door_top", "y": 180 }
+        "facing=north,half=upper,hinge=right,open=true": { "model": "dirtdeco:grass_door_top", "y": 180 },
+        "inventory": {
+            "model": "dirtdeco:grass_door_top"
+        }
     }
 }
