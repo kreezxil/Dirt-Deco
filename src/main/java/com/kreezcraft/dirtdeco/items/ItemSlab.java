@@ -3,7 +3,6 @@ package com.kreezcraft.dirtdeco.items;
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.blocks.ModSlab;
 import com.kreezcraft.dirtdeco.blocks.ModSlab.SlabVariant;
-
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.properties.PropertyEnum;
@@ -33,6 +32,8 @@ public class ItemSlab extends ItemBlock {
 		setUnlocalizedName(DirtDeco.MODID + "." + name);
 		setCreativeTab(DirtDeco.creativeTab);
 	}
+
+
 
 	@Override
 	public EnumActionResult onItemUse(EntityPlayer player, World world, BlockPos pos, EnumHand hand, EnumFacing facing, float hitX, float hitY, float hitZ) {

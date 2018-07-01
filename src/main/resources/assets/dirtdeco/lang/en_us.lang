@@ -18,3 +18,12 @@ tile.dirtdeco.grass_door.name=Grass Door
 tile.dirtdeco.grass_trap_door.name=Grass Trap Door
 tile.dirtdeco.grass_fence.name=Grass Fence
 tile.dirtdeco.grass_gate.name=Grass Gate
+
+tile.dirtdeco.gravel_stairs.name=Gravel Stairs
+tile.dirtdeco.gravel_slab.name=Gravel Slab
+
+tile.dirtdeco.sand_stairs.name=Sand Stairs
+tile.dirtdeco.sand_slab.name=Sand Slab
+
+tile.dirtdeco.red_sand_stairs.name=Red Sand Stairs
+tile.dirtdeco.red_sand_slab.name=Red Sand Slab

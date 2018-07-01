@@ -1,0 +1,21 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:grass_slab",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:grass"
+        }
+    }
+}

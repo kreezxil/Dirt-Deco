@@ -1,0 +1,21 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:gravel_slab",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:gravel"
+        }
+    }
+}

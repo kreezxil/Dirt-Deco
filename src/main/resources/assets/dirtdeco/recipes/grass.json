@@ -1,0 +1,29 @@
+{
+    "result": 
+    {
+        "item": "minecraft:grass",
+        "count": 9
+    },
+
+    "pattern": 
+    [
+        "www",
+        "wdw",
+        "www"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "w": 
+        {
+            "item": "minecraft:wheat_seeds"
+        },
+
+        "d": 
+        {
+            "item": "minecraft:dirt",
+            "data": 0
+        }
+    }
+}

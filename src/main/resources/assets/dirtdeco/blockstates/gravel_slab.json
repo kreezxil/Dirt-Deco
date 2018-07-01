@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults":{
+	    "textures": {
+        "bottom": "dirtdeco:blocks/gravel",
+        "top": "dirtdeco:blocks/gravel",
+        "side": "dirtdeco:blocks/gravel"
+    }
+	},
+	"variants": {
+		"half":{
+			"upper": {
+				"model": "dirtdeco:gravel_upper_slab"
+			},
+			"lower": {
+				"model": "dirtdeco:gravel_half_slab"
+			},
+			"double": {
+				"model": "dirtdeco:gravel_normal"
+			}
+		}
+	}
+}
