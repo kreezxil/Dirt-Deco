@@ -1,0 +1,8 @@
+{
+    "parent": "block/outer_stairs",
+    "textures": {
+			"bottom": "dirtdeco:blocks/stone",
+			"top": "dirtdeco:blocks/stone",
+			"side": "dirtdeco:blocks/stone"
+    }
+}

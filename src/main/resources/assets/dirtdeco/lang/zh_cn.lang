@@ -3,27 +3,30 @@ language.name=Chinese
 language.region=China
 language.code=zh_cn
 
-itemGroup.dirtdeco=泥土装饰
+itemGroup.dirtdeco=æ³¥åœŸè£…é¥°
 
-tile.dirtdeco.dirt_stairs.name=泥土楼梯
-tile.dirtdeco.dirt_slab.name=泥土台阶
-tile.dirtdeco.dirt_door.name=泥土门
-tile.dirtdeco.dirt_trap_door.name=泥土活板门
-tile.dirtdeco.dirt_fence.name=泥土栅栏
-tile.dirtdeco.dirt_gate.name=泥土栅栏门
+tile.dirtdeco.dirt_stairs.name=æ³¥åœŸæ¥¼æ¢¯
+tile.dirtdeco.dirt_slab.name=æ³¥åœŸå�°é˜¶
+tile.dirtdeco.dirt_door.name=æ³¥åœŸé—¨
+tile.dirtdeco.dirt_trap_door.name=æ³¥åœŸæ´»æ�¿é—¨
+tile.dirtdeco.dirt_fence.name=æ³¥åœŸæ …æ �
+tile.dirtdeco.dirt_gate.name=æ³¥åœŸæ …æ �é—¨
 
-tile.dirtdeco.grass_stairs.name=草方块楼梯
-tile.dirtdeco.grass_slab.name=草方块台阶
-tile.dirtdeco.grass_door.name=草方块门
-tile.dirtdeco.grass_trap_door.name=草方块活板门
-tile.dirtdeco.grass_fence.name=草方块栅栏
-tile.dirtdeco.grass_gate.name=草方块栅栏门
+tile.dirtdeco.grass_stairs.name=è�‰æ–¹å�—æ¥¼æ¢¯
+tile.dirtdeco.grass_slab.name=è�‰æ–¹å�—å�°é˜¶
+tile.dirtdeco.grass_door.name=è�‰æ–¹å�—é—¨
+tile.dirtdeco.grass_trap_door.name=è�‰æ–¹å�—æ´»æ�¿é—¨
+tile.dirtdeco.grass_fence.name=è�‰æ–¹å�—æ …æ �
+tile.dirtdeco.grass_gate.name=è�‰æ–¹å�—æ …æ �é—¨
 
-tile.dirtdeco.gravel_stairs.name=沙砾楼梯
-tile.dirtdeco.gravel_slab.name=沙砾台阶
+tile.dirtdeco.gravel_stairs.name=æ²™ç ¾æ¥¼æ¢¯
+tile.dirtdeco.gravel_slab.name=æ²™ç ¾å�°é˜¶
 
-tile.dirtdeco.sand_stairs.name=沙子楼梯
-tile.dirtdeco.sand_slab.name=沙子台阶
+tile.dirtdeco.sand_stairs.name=æ²™å­�æ¥¼æ¢¯
+tile.dirtdeco.sand_slab.name=æ²™å­�å�°é˜¶
 
-tile.dirtdeco.red_sand_stairs.name=红沙楼梯
-tile.dirtdeco.red_sand_slab.name=红沙台阶
+tile.dirtdeco.red_sand_stairs.name=çº¢æ²™æ¥¼æ¢¯
+tile.dirtdeco.red_sand_slab.name=çº¢æ²™å�°é˜¶
+
+tile.dirtdeco.stone_stairs.name=石楼梯
+tile.dirtdeco.stone_slab.name=石板

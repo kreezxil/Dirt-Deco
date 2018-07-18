@@ -38,4 +38,7 @@ public class InitBlocks {
 	public static final Block RED_SAND_SLAB = new ModSlab("red_sand_slab",Blocks.SAND);
 	public static final Block RED_SAND_STAIRS = new ModStairs("red_sand_stairs",Blocks.SAND);
 	
+	public static final Block STONE_SLAB = new ModSlab("stone_slab",Blocks.STONE);
+	public static final Block STONE_STAIRS = new ModStairs("stone_stairs",Blocks.STONE);
+	
 }
