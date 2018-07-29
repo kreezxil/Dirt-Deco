@@ -1,7 +1,7 @@
 package com.kreezcraft.dirtdeco.recipes;
 
-import com.kreezcraft.dirtdeco.blocks.InitBlocks;
-import com.kreezcraft.dirtdeco.items.InitItems;
+import com.kreezcraft.dirtdeco.init.InitBlocks;
+import com.kreezcraft.dirtdeco.init.InitItems;
 
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
@@ -17,7 +17,8 @@ public class ModRecipes {
 	Item temp = null;
 
 	public static void init() {
-		//GameRegistry.addSmelting(InitBlocks.DIAMOND_SAND, new ItemStack(InitBlocks.DIAMOND_GLASS), 10f);
+		GameRegistry.addSmelting(InitBlocks.GRASS_SLAB, new ItemStack(InitBlocks.PATH_SLAB), 0.01f);
+		//GameRegistry.addSmelting(InitBlocks.GRASS_STAIRS, new ItemStack(InitBlocks.PATH_STAIRS), 0.01f);
 	}
 
 }

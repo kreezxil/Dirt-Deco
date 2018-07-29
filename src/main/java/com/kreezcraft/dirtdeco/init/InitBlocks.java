@@ -1,8 +1,10 @@
-package com.kreezcraft.dirtdeco.blocks;
+package com.kreezcraft.dirtdeco.init;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.kreezcraft.dirtdeco.blocks.ModSlab;
+import com.kreezcraft.dirtdeco.blocks.ModStairs;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockPlanks.EnumType;
 import net.minecraft.block.material.Material;
@@ -24,6 +26,9 @@ public class InitBlocks {
 	public static final Block GRASS_SLAB = new ModSlab("grass_slab",Blocks.GRASS);
 	public static final Block GRASS_STAIRS = new ModStairs("grass_stairs",Blocks.GRASS);
 	
+	public static final Block PATH_SLAB = new ModSlab("path_slab",Blocks.GRASS_PATH);
+	//public static final Block PATH_STAIRS = new ModStairs("path_stairs",Blocks.GRASS_PATH);
+	
 //	public static final Block GRASS_FENCE = new ModFence("grass_fence",Material.GRASS);
 //	public static final Block GRASS_DOOR = new ModDoor("grass_door", Material.GRASS);
 //	public static final Block GRASS_TRAP_DOOR = new ModTrapDoor("grass_trap_door", Material.GRASS);
@@ -40,5 +45,7 @@ public class InitBlocks {
 	
 	public static final Block STONE_SLAB = new ModSlab("stone_slab",Blocks.STONE);
 	public static final Block STONE_STAIRS = new ModStairs("stone_stairs",Blocks.STONE);
+	
+	
 	
 }

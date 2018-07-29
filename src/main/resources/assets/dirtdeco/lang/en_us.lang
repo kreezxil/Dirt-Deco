@@ -19,6 +19,9 @@ tile.dirtdeco.grass_trap_door.name=Grass Trap Door
 tile.dirtdeco.grass_fence.name=Grass Fence
 tile.dirtdeco.grass_gate.name=Grass Gate
 
+tile.dirtdeco.path_slab.name=Grass Path Slab
+tile.dirtdeco.path_stairs.name=Grass Path Stairs
+
 tile.dirtdeco.gravel_stairs.name=Gravel Stairs
 tile.dirtdeco.gravel_slab.name=Gravel Slab
 

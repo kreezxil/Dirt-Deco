@@ -19,11 +19,11 @@ public class DirtDecoConfig {
 	public static class NondiamondLevel {
 		@Config.Comment({ "Set the hardness of the blocks in the mod" })
 		@Config.Name("Standard Hardness")
-		public float standardHardness = 3f;
+		public float standardHardness = 0.3f;
 
 		@Config.Comment({ "Set the explosion resistance of the blocks in the mod" })
 		@Config.Name("Standard Resistance")
-		public float standardResistance = 5f;
+		public float standardResistance = 0.5f;
 	}
 
 	@SubscribeEvent

@@ -8,8 +8,9 @@ import javax.annotation.Nullable;
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.DirtDecoConfig;
 import com.kreezcraft.dirtdeco.client.IHasModel;
+import com.kreezcraft.dirtdeco.init.InitBlocks;
+import com.kreezcraft.dirtdeco.init.InitItems;
 import com.kreezcraft.dirtdeco.items.ItemSlab;
-import com.kreezcraft.dirtdeco.items.InitItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -19,6 +20,7 @@ import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.BlockRenderLayer;
@@ -57,6 +59,31 @@ public class ModSlab extends Block implements IHasModel {
 	@Override
 	public boolean isFullCube(IBlockState state) {
 		return (state.getValue(VARIANT) == SlabVariant.DOUBLE);
+	}
+
+	@SideOnly(Side.CLIENT)
+	public BlockRenderLayer getBlockLayer() {
+		return BlockRenderLayer.SOLID;
+	}
+
+	@SideOnly(Side.CLIENT)
+	@Override
+	public boolean shouldSideBeRendered(IBlockState state, IBlockAccess blockAccess, BlockPos pos, EnumFacing facing) {
+		IBlockState state2 = blockAccess.getBlockState(pos.offset(facing));
+		if (!facing.getAxis().isVertical())
+			return !(state2.getBlock() == this && (state2 == state || getDouble() == state2));
+		else if (facing == EnumFacing.DOWN && state2 == getDouble())
+			return !(state == getLower() || state == state2);
+		else if (facing == EnumFacing.UP && state2 == getDouble())
+			return !(state.getBlock() == this);
+		else if (facing == EnumFacing.UP && state == getDouble())
+			return !(state2 == getLower());
+		return !(state2.getBlock() == this && state2 == getOpposite(state));
+	}
+
+	@Override
+	public boolean isOpaqueCube(IBlockState state) {
+		return false;
 	}
 
 	@Override
@@ -163,6 +190,16 @@ public class ModSlab extends Block implements IHasModel {
 	public void registerModels() {
 		DirtDeco.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "half=lower");
 
+	}
+
+	@Override
+	public int quantityDropped(Random random) {
+		return 1;
+	}
+
+	@Override
+	public boolean canHarvestBlock(IBlockAccess world, BlockPos pos, EntityPlayer player) {
+		return true;
 	}
 
 }

@@ -1,6 +1,6 @@
 package com.kreezcraft.dirtdeco;
 
-import com.kreezcraft.dirtdeco.blocks.InitBlocks;
+import com.kreezcraft.dirtdeco.init.InitBlocks;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemStack;

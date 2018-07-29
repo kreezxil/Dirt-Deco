@@ -1,4 +1,4 @@
-package com.kreezcraft.dirtdeco.items;
+package com.kreezcraft.dirtdeco.init;
 
 import java.util.ArrayList;
 import java.util.List;

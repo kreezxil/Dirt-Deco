@@ -1,7 +1,7 @@
 {
     "result": 
     {
-        "item": "dirtdeco:gravel_slab",
+        "item": "dirtdeco:grass_slab",
         "count": 6
     },
 
@@ -15,7 +15,7 @@
     {
         "d": 
         {
-            "item": "minecraft:gravel"
+            "item": "minecraft:grass"
         }
     }
 }

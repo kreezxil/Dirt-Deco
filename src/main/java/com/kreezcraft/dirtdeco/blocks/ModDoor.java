@@ -5,7 +5,8 @@ import java.util.Random;
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.DirtDecoConfig;
 import com.kreezcraft.dirtdeco.client.IHasModel;
-import com.kreezcraft.dirtdeco.items.InitItems;
+import com.kreezcraft.dirtdeco.init.InitBlocks;
+import com.kreezcraft.dirtdeco.init.InitItems;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoor;

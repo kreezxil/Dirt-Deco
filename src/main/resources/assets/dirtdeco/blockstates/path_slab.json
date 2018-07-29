@@ -1,0 +1,23 @@
+{
+	"forge_marker": 1,
+	"defaults":{
+	    "textures": {
+        "bottom": "dirtdeco:blocks/dirt",
+        "top": "dirtdeco:blocks/grass_path_top",
+        "side": "dirtdeco:blocks/grass_path_side"
+    }
+	},
+	"variants": {
+		"half":{
+			"upper": {
+				"model": "dirtdeco:grass_path_upper_slab"
+			},
+			"lower": {
+				"model": "dirtdeco:half_slab"
+			},
+			"double": {
+				"model": "minecraft:grass_path"
+			}
+		}
+	}
+}

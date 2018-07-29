@@ -2,6 +2,7 @@ package com.kreezcraft.dirtdeco.items;
 
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.client.IHasModel;
+import com.kreezcraft.dirtdeco.init.InitItems;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
