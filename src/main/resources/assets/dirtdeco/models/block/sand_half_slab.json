@@ -1,8 +1,0 @@
-{
-    "parent": "block/half_slab",
-    "textures": {
-        "bottom": "dirtdeco:blocks/sand",
-        "top": "dirtdeco:blocks/sand",
-        "side": "dirtdeco:blocks/sand"
-    }
-}

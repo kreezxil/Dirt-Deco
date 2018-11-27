@@ -1,8 +1,0 @@
-{
-    "parent": "block/inner_stairs",
-    "textures": {
-			"bottom": "dirtdeco:blocks/gravel",
-			"top": "dirtdeco:blocks/gravel",
-			"side": "dirtdeco:blocks/gravel"
-    }
-}

@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": 
+    {
+        "textures": 
+        {
+            "bottom": "dirtdeco:blocks/dirt",
+            "top": "dirtdeco:blocks/grass_path_top",
+            "side": "dirtdeco:blocks/grass_path_side"
+        },
+
+        "model": "half_slab",
+        "uvlock": true
+    },
+
+    "variants": 
+    {
+        "inventory": 
+        [
+            {
+                "model": "half_slab"
+            }
+        ],
+
+        "half": 
+        {
+            "upper": {
+                "model": "upper_slab"
+            },
+            "lower": {
+                "model": "half_slab"
+            },
+            "double": {
+                "model": "grass_path"
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:fence_gravel",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:gravel",
+            "data": 0
+        }
+    }
+}

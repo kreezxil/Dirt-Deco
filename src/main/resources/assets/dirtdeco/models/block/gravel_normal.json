@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-			"bottom": "dirtdeco:blocks/gravel",
-			"top": "dirtdeco:blocks/gravel",
-			"side": "dirtdeco:blocks/gravel"
-    }
-}

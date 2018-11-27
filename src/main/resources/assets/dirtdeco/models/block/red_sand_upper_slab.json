@@ -1,8 +1,0 @@
-{
-    "parent": "block/upper_slab",
-    "textures": {
-        "bottom": "dirtdeco:blocks/red_sand",
-        "top": "dirtdeco:blocks/red_sand",
-        "side": "dirtdeco:blocks/red_sand"
-    }
-}

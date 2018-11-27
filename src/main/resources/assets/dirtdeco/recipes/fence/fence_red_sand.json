@@ -1,0 +1,23 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:fence_red_sand",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:sand",
+            "data": 1
+        }
+    }
+}

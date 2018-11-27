@@ -1,0 +1,28 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:slab_stone",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd",
+        "sss",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        },
+        "s":
+        {
+            "item": "minecraft:stick"
+        }
+    }
+}

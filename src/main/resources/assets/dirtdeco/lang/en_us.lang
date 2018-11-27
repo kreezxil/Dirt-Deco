@@ -5,31 +5,26 @@ language.code=en_us
 
 itemGroup.dirtdeco=Dirt Deco
 
-tile.dirtdeco.dirt_stairs.name=Dirt Stairs
-tile.dirtdeco.dirt_slab.name=Dirt Slab
-tile.dirtdeco.dirt_door.name=Dirt Door
-tile.dirtdeco.dirt_trap_door.name=Dirt Trap Door
-tile.dirtdeco.dirt_fence.name=Dirt Fence
-tile.dirtdeco.dirt_gate.name=Dirt Gate
+tile.dirtdeco.stairs_dirts.name=Dirt Stairs
 
-tile.dirtdeco.grass_stairs.name=Grass Stairs
-tile.dirtdeco.grass_slab.name=Grass Slab
-tile.dirtdeco.grass_door.name=Grass Door
-tile.dirtdeco.grass_trap_door.name=Grass Trap Door
-tile.dirtdeco.grass_fence.name=Grass Fence
-tile.dirtdeco.grass_gate.name=Grass Gate
+tile.dirtdeco.slab_grass.name=Grass Slab
+tile.dirtdeco.slab_gravel.name=Gravel Slab
+tile.dirtdeco.slab_path.name=Path Slab
+tile.dirtdeco.slab_red_sand.name=Red Sand Slab
+tile.dirtdeco.slab_sand.name=Sand Slab
+tile.dirtdeco.slab_stone.name=Native Stone Slab
 
-tile.dirtdeco.path_slab.name=Grass Path Slab
-tile.dirtdeco.path_stairs.name=Grass Path Stairs
+tile.dirtdeco.fence_dirt.name=Dirt Fence
+tile.dirtdeco.fence_gravel.name=Gravel Fence
+tile.dirtdeco.fence_red_sand.name=Red Sand Fence
+tile.dirtdeco.fence_sand.name=Sand Fence
+tile.dirtdeco.fence_stone.name=Stone Fence
+tile.dirtdeco.fence_grass.name=Grass Fence
 
-tile.dirtdeco.gravel_stairs.name=Gravel Stairs
-tile.dirtdeco.gravel_slab.name=Gravel Slab
-
-tile.dirtdeco.sand_stairs.name=Sand Stairs
-tile.dirtdeco.sand_slab.name=Sand Slab
-
-tile.dirtdeco.red_sand_stairs.name=Red Sand Stairs
-tile.dirtdeco.red_sand_slab.name=Red Sand Slab
-
-tile.dirtdeco.stone_stairs.name=Stone Stairs
-tile.dirtdeco.stone_slab.name=Stone Slab
+tile.dirtdeco.stairs_dirt.name=Dirt Stairs
+tile.dirtdeco.stairs_grass.name=Grass Stairs
+tile.dirtdeco.stairs_gravel.name=Gravel Stairs
+tile.dirtdeco.stairs_path.name=Grass Path Stairs
+tile.dirtdeco.stairs_red_sand.name=Red Sand Stairs
+tile.dirtdeco.stairs_sand.name=Sand Stairs
+tile.dirtdeco.stairs_stone.name=Stone Stairs

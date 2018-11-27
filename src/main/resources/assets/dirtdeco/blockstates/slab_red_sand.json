@@ -1,0 +1,38 @@
+{
+    "forge_marker": 1,
+    "defaults": 
+    {
+        "textures": 
+        {
+            "bottom": "dirtdeco:blocks/red_sand",
+            "top": "dirtdeco:blocks/red_sand",
+            "side": "dirtdeco:blocks/red_sand"
+        },
+
+        "model": "half_slab",
+        "uvlock": true
+    },
+
+    "variants": 
+    {
+        "inventory": 
+        [
+            {
+                "model": "half_slab"
+            }
+        ],
+
+        "half": 
+        {
+            "upper": {
+                "model": "upper_slab"
+            },
+            "lower": {
+                "model": "half_slab"
+            },
+            "double": {
+                "model": "red_sand"
+            }
+       }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:fence_stone",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:stone",
+            "data": 0
+        }
+    }
+}

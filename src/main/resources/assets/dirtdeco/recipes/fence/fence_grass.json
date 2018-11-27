@@ -1,0 +1,23 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:fence_grass",
+        "count": 6
+    },
+
+    "pattern": 
+    [
+        "ddd",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:grass",
+            "data": 0
+        }
+    }
+}

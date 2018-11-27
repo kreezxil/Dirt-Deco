@@ -1,0 +1,24 @@
+{
+    "result": 
+    {
+        "item": "dirtdeco:stairs_path",
+        "count": 4
+    },
+
+    "pattern": 
+    [
+        "  d",
+        " dd",
+        "ddd"
+    ],
+
+    "type": "forge:ore_shaped",
+    "key": 
+    {
+        "d": 
+        {
+            "item": "minecraft:grass",
+            "data": 0
+        }
+    }
+}

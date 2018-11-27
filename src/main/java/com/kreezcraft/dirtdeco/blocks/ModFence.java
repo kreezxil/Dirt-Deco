@@ -20,8 +20,8 @@ public class ModFence extends BlockFence implements IHasModel{
 
 	private String name;
 
-	public ModFence(String name, Material materialIn) {
-		super(materialIn, materialIn.getMaterialMapColor());
+	public ModFence(String name, Block block) {
+		super(block.getMaterial(block.getDefaultState()), block.getMaterial(block.getDefaultState()).getMaterialMapColor());
 		this.name = name;
 		setCreativeTab(DirtDeco.creativeTab);
 		setUnlocalizedName(DirtDeco.MODID + "." + name);
@@ -32,6 +32,7 @@ public class ModFence extends BlockFence implements IHasModel{
 		InitBlocks.BLOCKS.add(this);
 		InitItems.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));
 	}
+
 
 	@Override
 	public void registerModels() {

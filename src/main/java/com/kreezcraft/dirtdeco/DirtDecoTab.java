@@ -14,7 +14,7 @@ public class DirtDecoTab extends CreativeTabs {
 
 	@Override
 	public ItemStack getTabIconItem() {
-		return new ItemStack(InitBlocks.GRASS_STAIRS);
+		return new ItemStack(InitBlocks.STAIRS_GRASS);
 	}
 	
 	@Override
