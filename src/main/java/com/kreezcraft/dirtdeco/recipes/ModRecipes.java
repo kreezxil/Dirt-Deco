@@ -18,7 +18,7 @@ public class ModRecipes {
 
 	public static void init() {
 		GameRegistry.addSmelting(InitBlocks.SLAB_GRASS, new ItemStack(InitBlocks.SLAB_PATH), 0.01f);
-		//GameRegistry.addSmelting(InitBlocks.GRASS_STAIRS, new ItemStack(InitBlocks.PATH_STAIRS), 0.01f);
+		GameRegistry.addSmelting(InitBlocks.STAIRS_GRASS, new ItemStack(InitBlocks.STAIRS_PATH), 0.01f);
 	}
 
 }
