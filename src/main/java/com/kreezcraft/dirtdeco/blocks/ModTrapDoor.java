@@ -1,5 +1,7 @@
 package com.kreezcraft.dirtdeco.blocks;
 
+import javax.annotation.Nullable;
+
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.DirtDecoConfig;
 import com.kreezcraft.dirtdeco.client.IHasModel;
@@ -11,10 +13,11 @@ import net.minecraft.block.BlockDoor;
 import net.minecraft.block.BlockStairs;
 import net.minecraft.block.BlockTrapDoor;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-public class ModTrapDoor extends BlockTrapDoor implements IHasModel{
+public class ModTrapDoor extends BlockTrapDoor implements IHasModel {
 
 	private String name;
 
@@ -36,4 +39,14 @@ public class ModTrapDoor extends BlockTrapDoor implements IHasModel{
 		DirtDeco.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
 	}
 
+	@Nullable
+	@Override
+	public String getHarvestTool(final IBlockState state) {
+		return super.getHarvestTool(state);
+	}
+
+	@Override
+	public boolean isToolEffective(final String type, final IBlockState state) {
+		return super.isToolEffective(type, state);
+	}
 }

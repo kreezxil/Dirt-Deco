@@ -1,5 +1,7 @@
 package com.kreezcraft.dirtdeco.blocks;
 
+import javax.annotation.Nullable;
+
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.DirtDecoConfig;
 import com.kreezcraft.dirtdeco.client.IHasModel;
@@ -28,6 +30,17 @@ public class ModStairs extends BlockStairs implements IHasModel {
 		useNeighborBrightness = true;
 		InitBlocks.BLOCKS.add(this);
 		InitItems.ITEMS.add(new ItemBlock(this).setRegistryName(getRegistryName()));
+	}
+
+	@Nullable
+	@Override
+	public String getHarvestTool(final IBlockState state) {
+		return super.getHarvestTool(state);
+	}
+
+	@Override
+	public boolean isToolEffective(final String type, final IBlockState state) {
+		return super.isToolEffective(type, state);
 	}
 
 	@Override

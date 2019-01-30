@@ -2,6 +2,8 @@ package com.kreezcraft.dirtdeco.blocks;
 
 import java.util.Random;
 
+import javax.annotation.Nullable;
+
 import com.kreezcraft.dirtdeco.DirtDeco;
 import com.kreezcraft.dirtdeco.DirtDecoConfig;
 import com.kreezcraft.dirtdeco.client.IHasModel;
@@ -42,5 +44,16 @@ public class ModDoor extends BlockDoor implements IHasModel {
 	@Override
 	public Item getItemDropped(IBlockState state, Random rand, int fortune) {
 		return state.getValue(HALF) == BlockDoor.EnumDoorHalf.UPPER ? Items.AIR : Item.getItemFromBlock(this);
+	}
+
+	@Nullable
+	@Override
+	public String getHarvestTool(final IBlockState state) {
+		return super.getHarvestTool(state);
+	}
+
+	@Override
+	public boolean isToolEffective(final String type, final IBlockState state) {
+		return super.isToolEffective(type, state);
 	}
 }
